@@ -44,7 +44,7 @@ with open("c_incunabula.txt",'r') as files:
             res = 0
             for _ in range(HashCodeBook):
                 if(list_[_] in B):
-                    list_.append(list_[_])
+                    list__.append(list_[_])
                     res += 1
                     if(res >= leftDays):
                         Extra = True
